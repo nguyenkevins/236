@@ -6,15 +6,14 @@ var content = ["Genre:  Interactive, Adventure Characters: Young King (the user)
     , "Although climate change isn’t the main theme of our choice-based story, it does play a role in how long the King can last until it will fail to rule the country. If the King fails to keep the environment clean through bad choices, the King will eventually fail to rule. Not only will the King fail to rule, but the user will witness the mess that user created in the story."
     , "This choice-based story is based off the game “Reigns”, where the King must make decisions in order to remain in power the longest. The idea is also based off of many different choice-based games such as The Walking Dead, Corpse Party, and Fallout. Our group might include some factual information in the game so that the audience learn about cause of climate change, based off the article."]
 //this variable is used to change the content inside the display block
-var displayText = document.getElementById("text");
+var displayText = document.getElementById("text");"Welcome, click next for more information";
+displayText.innerHTML = "Welcome, click next for more information";
 //this variable is used to keep track of which content is to be displayed 
 var i = -1;
 
 //these things will respond to the mouse clicks
 document.getElementById("next").addEventListener("click", goFoward);
 document.getElementById("previous").addEventListener("click", goBack);
-
-//
 
 function goFoward() {
     if (i < content.length - 1) {
@@ -28,8 +27,8 @@ function goBack() {
         i--;
         displayText.innerHTML = content[i];
     }
-    else {
-        document.getElementById("text").innerHTML = 'Welcome To Evergreen Kingdom!!! \n More information, click the button below';
-        i = -1;
+    else if(i == 0){
+        displayText.innerHTML = "Welcome, click next for more information";
+        i = 0;
     }
 }
