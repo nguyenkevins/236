@@ -19,21 +19,46 @@
             </a></li>
     </ul>
 
-
+    <div class="title">
+        <h1>The Evergreen Kingdom</h1>
+    </div>
     <div class="container">
-        <div class="title">
-            <h1>The Evergreen Kingdom</h1>
-        </div>
         <div class="box-1">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Story Overview</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----After your father, Aatrox, passed away, you, Aatrox II, is chosen to govern the kingdom.<br>
+                        Aatrox II is just only 18 years old by that time, but he is very knowledgeable. <br>
+                        He observes that his father has caused climate change, and it indirectly killed his father. <br>
+                        You are now played as the young king character, and 2 directions are provided: Remain your dad’s
+                        policies OR alternate your dad’s policies. <br>
+                        You have 100 LP (Loyalty points), and LP will reflect on your decisions throughout the game----
+                        <br>
+                    </p>
+                </div>
 
-            <p id="text">
-            </p>        
-                <button type="button" class= "buttons" id="previous">
-                    << Previous </button> <button class="buttons" type="button" id="next"> next>>
-                </button>
+                <button onclick="myFunction2()" class="dropbtn">Story Plot</button>
+                <div id="myDropdown2" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----Your objective is to govern the kingdom in the wisest way possible.
+                        That is, should you follow your father's footsteps? Or should you make
+                        decisions that may alternate the fate of your kingdom. Nevertheless, you
+                        have to make sure that your kingdom is well-mantained and your people are healthy
+                        and happy----
+                    </p>
+                </div>
+
+                <button onclick="myFunction3()" class="dropbtn">Story Details</button>
+                <div id="myDropdown3" class="dropdown-content">
+                    <p class="dropdown-text">
+                        The flow of the story is something like this:
+                    </p>
+                    <img src="images/flowchart.PNG" class="flow-chart" width="1000" height="500">
+                    <a href="https://docs.google.com/document/d/1gvzoj-GXE1HF44CQ2cseAEF_CCcXNYlcPQgPl5U-1L4/edit"  target="_blank" >Click Here For The Complete Story Guide</a>
+                </div>
+            </div>
         </div>
-
-
     </div>
     <script src="main.js"></script>
 </body>

@@ -2,26 +2,69 @@
 <html>
 
 <head>
-    <title>
-        About Team Members
-    </title>
+    <title>The Evergreen Kingdom</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body class="body-background">
+<body class="body-background-about">
+    <ul class="nav-bar">
+        <li><a href="index.html">
+                <h2>Home</h2>
+            </a></li>
+        <li><a href="#play">
+                <h2>Play</h2>
+            </a></li>
+        <li><a href="about.html">
+                <h2>About</h2>
+            </a></li>
+    </ul>
+
+    <div class="title">
+        <h1>The Members</h1>
+    </div>
     <div class="container">
-        <h1 class="title-about">
-            About Members
-        </h1>
+
         <div class="box-1">
-            <p id="text-about">
-            </p>
-            <button type="button" class="buttons" id="previous">
-                << Previous </button> <button class="buttons" type="button" id="next"> next>>
-            </button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Huy Nguyen</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----I love m2----
+                        <br>
+                    </p>
+                </div>
+
+                <button onclick="myFunction2()" class="dropbtn">Kevin Nguyen</button>
+                <div id="myDropdown2" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----I love anime and kdrama----
+                    </p>
+                </div>
+
+                <button onclick="myFunction3()" class="dropbtn">Kray</button>
+                <div id="myDropdown3" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----I love chimac----
+                    </p>
+                </div>
+
+                <button onclick="myFunction4()" class="dropbtn">Kaki</button>
+                <div id="myDropdown4" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----Hi----
+                    </p>
+                </div>
+
+                <button onclick="myFunction5()" class="dropbtn">Ryan</button>
+                <div id="myDropdown5" class="dropdown-content">
+                    <p class="dropdown-text">
+                        ----Hi----
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="about.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

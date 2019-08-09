@@ -27,28 +27,29 @@
 }
 
 .title {
+    background-image: url('images/blackwall.jpg');
+    margin-bottom: 30px;
+    height: 70px;
+    background-repeat: repeat-x;
     text-align: center;
     font-size: 25px;
-}
-
-.title-about{
-    text-align: center;
-    padding-top: 30%;
+    color: whitesmoke;
+    opacity: 0.85;
 }
 
 .box-1 {
     background-color: whitesmoke;
-    opacity: 0.8;
+    opacity: 0.93;
     color: black;
     border: 5px black solid;
+    border-radius: 5px;
     border-width: 8px;
     padding: 20px;
-    margin: 100px;
-    margin-top: 0px;
+    margin-top: 80px;
 }
 
 .box-1 p, button {
-    opacity: 1;
+    opacity: 0.9;
     font-family: Tahoma;
     font-weight: 800;
     font-style: italic;
@@ -60,8 +61,23 @@
 
 .body-background {
     background: url(images/castle.jpg);
-    background-size: 1600px 1000px;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.body-background-about {
+    background: url(images/knights.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.buttons {
+    display: block;
+    width: 90%;
+    margin: 20px;
+    opacity: 1;
+    color: whitesmoke;
+    background-color: black;
 }
 
 .buttons:hover {
@@ -86,4 +102,48 @@
     background-color: black;
     color: whitesmoke;
     margin-bottom: 100px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: middle;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-text {
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+.flow-chart{
+    float: left;
 }
