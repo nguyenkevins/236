@@ -190,3 +190,36 @@
     background-color: #555;
     /* Add a dark-grey background on hover */
 }
+
+.teamwork-pics img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding: 10px;
+}
+
+.phase4-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+}
+
+.phase4-img{
+    padding-right: 50px;
+    margin: 50px;
+}
+
+.box img{
+    display: flex;
+    align-items:center;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 500px;
+ }
+
+#weirdimg{
+    transform: rotate(270deg);
+    padding: none;
+}
