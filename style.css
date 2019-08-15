@@ -30,7 +30,7 @@
 }
 
 .nav-bar h2:hover {
-    background-color:red;
+    background-color: red;
     border: black solid;
     border: none;
 }
@@ -71,7 +71,7 @@
 
 .body-background {
     background: url(images/wood.jpg);
-        background-size: 100%;
+    background-size: 100%;
     background-repeat: repeat;
 }
 
@@ -119,9 +119,9 @@
     color: black;
 }
 
-.reference-link{
+.reference-link {
     color: black;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .dropdown-text {
@@ -191,35 +191,17 @@
     /* Add a dark-grey background on hover */
 }
 
-.teamwork-pics img{
-    width: 500px;
-    height: 500px;
-    float: right;
-    padding: 10px;
+#weirdimg {
+    transform: rotate(270deg);
+    padding: none;
 }
 
-.phase4-text{
-    font-family: sans-serif;
+.box {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     letter-spacing: 0.1em;
     word-spacing: 0.5em;
     line-height: 1.5em;
-}
-
-.phase4-img{
-    padding-right: 50px;
-    margin: 50px;
-}
-
-.box img{
-    display: flex;
-    align-items:center;
-    padding-bottom: 20px;
-    width: 500px;
-    height: 500px;
- }
-
-#weirdimg{
-    transform: rotate(270deg);
-    padding: none;
+    padding-bottom: 10px;
 }
