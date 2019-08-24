@@ -134,6 +134,17 @@
     line-height: 1.5em;
 }
 
+.dropdown-text-play {
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .dropdown-aboutme {
     padding-left: 20px;
     padding-top: 10px;
@@ -204,4 +215,14 @@
     word-spacing: 0.5em;
     line-height: 1.5em;
     padding-bottom: 10px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
 }
